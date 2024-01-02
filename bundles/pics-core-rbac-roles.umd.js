@@ -1347,6 +1347,24 @@
                     }
                 }
             });
+            this.items = [
+                {
+                    label: 'Page',
+                    icon: '',
+                    command: function (event) {
+                        _this.activateMenu(event);
+                    }
+                },
+                {
+                    label: 'Menu Ordering',
+                    icon: '',
+                    command: function (event) {
+                        _this.activateMenu(event);
+                    }
+                }
+            ];
+            this.activeItem = this.items[0];
+            this.firstTab = true;
         }
         RolesComponent.prototype.nestedData = function () {
             this.mainMenuList = this.menuList.filter(function (item) { return !item.parentid; }).map(this.buildTree(null));

@@ -816,6 +816,24 @@ class RolesComponent {
                 }
             }
         });
+        this.items = [
+            {
+                label: 'Page',
+                icon: '',
+                command: event => {
+                    this.activateMenu(event);
+                }
+            },
+            {
+                label: 'Menu Ordering',
+                icon: '',
+                command: event => {
+                    this.activateMenu(event);
+                }
+            }
+        ];
+        this.activeItem = this.items[0];
+        this.firstTab = true;
     }
     nestedData() {
         this.mainMenuList = this.menuList.filter((item) => !item.parentid).map(this.buildTree(null));
