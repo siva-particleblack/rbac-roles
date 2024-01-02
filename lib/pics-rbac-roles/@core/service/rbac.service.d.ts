@@ -31,6 +31,8 @@ export declare class RbacService {
     getReportDashbaord(): Observable<Object>;
     getPermissionRoleById(id: string): Observable<Object>;
     getManagementGroupTree(_organizationid: any): Observable<Object>;
+    getAllPages(): Observable<Object>;
+    updateMenuOrder(page: any): Observable<Object>;
     static ɵfac: i0.ɵɵFactoryDeclaration<RbacService, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<RbacService>;
 }

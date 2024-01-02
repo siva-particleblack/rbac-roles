@@ -7,6 +7,8 @@ import { LandingPageModel, RoleModel, UserRoleDto } from '../@core/datamodel/rba
 import { DataStoreService } from '../@core/service/data-store.service';
 import { MicrostrategyService } from '../@core/service/microstrategy.service';
 import { RbacService } from '../@core/service/rbac.service';
+import { TreeNode } from 'primeng/api/treenode';
+import { MenuItem } from 'primeng/api/menuitem';
 import * as i0 from "@angular/core";
 export declare class RolesComponent implements OnInit {
     private formBuilder;
@@ -38,6 +40,20 @@ export declare class RolesComponent implements OnInit {
     environment: any;
     RBACORG: RBACINFO;
     orgSubs: Subscription;
+    items: MenuItem[];
+    activeItem: MenuItem;
+    firstTab: boolean;
+    mainMenuList: any;
+    reArrangedList: any;
+    menuList: any;
+    subMenuList: any;
+    parent: any;
+    childMenuList: any;
+    showChildren: boolean;
+    parentMenulist: TreeNode[];
+    selectedFile: TreeNode;
+    buildTree: (parentId: any) => (item: any) => any;
+    nestedData(): void;
     constructor(injector: Injector, formBuilder: FormBuilder, alertService: AlertService, mstrService: MicrostrategyService, rolesService: RbacService, _storeservice: DataStoreService);
     ngOnInit(): void;
     ngOnDestroy(): void;
@@ -74,6 +90,10 @@ export declare class RolesComponent implements OnInit {
     getReportDashboard(): Promise<void>;
     roleValidation(): any;
     onModelRole(value: string): void;
+    activateMenu(event: any): void;
+    getPageInformation(): void;
+    updateMenuOrder(): void;
+    nodeDrop(event: any): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<RolesComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<RolesComponent, "roles", never, {}, {}, never, never>;
 }
