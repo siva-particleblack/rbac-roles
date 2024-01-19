@@ -16,6 +16,7 @@ export declare class RolesComponent implements OnInit {
     private mstrService;
     private rolesService;
     private _storeservice;
+    private permissionService;
     roleId: number;
     roleList: RoleModel[];
     filteredRoleList: RoleModel[];
@@ -52,9 +53,10 @@ export declare class RolesComponent implements OnInit {
     showChildren: boolean;
     parentMenulist: TreeNode[];
     selectedFile: TreeNode;
+    httpService: any;
     buildTree: (parentId: any) => (item: any) => any;
     nestedData(): void;
-    constructor(injector: Injector, formBuilder: FormBuilder, alertService: AlertService, mstrService: MicrostrategyService, rolesService: RbacService, _storeservice: DataStoreService);
+    constructor(injector: Injector, formBuilder: FormBuilder, alertService: AlertService, mstrService: MicrostrategyService, rolesService: RbacService, _storeservice: DataStoreService, permissionService: RbacService);
     ngOnInit(): void;
     ngOnDestroy(): void;
     initializeform(): void;
@@ -88,7 +90,6 @@ export declare class RolesComponent implements OnInit {
     delete(event: Event, id: any): void;
     deleteRole(): void;
     getReportDashboard(): Promise<void>;
-    roleValidation(): any;
     onModelRole(value: string): void;
     activateMenu(event: any): void;
     getPageInformation(): void;
