@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/forms'), require('@angular/router'), require('rxjs/add/operator/map'), require('@angular/common/http'), require('@angular/common'), require('primeng/card'), require('primeng/multiselect'), require('primeng/dropdown'), require('primeng/tabmenu'), require('primeng/accordion'), require('primeng/tree'), require('primeng/inputtext'), require('primeng/api'), require('@ng-bootstrap/ng-bootstrap'), require('primeng/avatar'), require('primeng/badge'), require('primeng/button'), require('primeng/calendar'), require('primeng/checkbox'), require('primeng/confirmdialog'), require('primeng/confirmpopup'), require('primeng/contextmenu'), require('primeng/dialog'), require('primeng/editor'), require('primeng/fieldset'), require('primeng/fileupload'), require('primeng/inputmask'), require('primeng/inputswitch'), require('primeng/inputtextarea'), require('primeng/knob'), require('primeng/message'), require('primeng/orderlist'), require('primeng/password'), require('primeng/progressspinner'), require('primeng/radiobutton'), require('primeng/ripple'), require('primeng/sidebar'), require('primeng/speeddial'), require('primeng/steps'), require('primeng/table'), require('primeng/tabview'), require('primeng/toast'), require('primeng/treeselect'), require('@angular/cdk/drag-drop')) :
-    typeof define === 'function' && define.amd ? define('@pics-core/rbac-roles', ['exports', '@angular/core', 'rxjs', '@angular/forms', '@angular/router', 'rxjs/add/operator/map', '@angular/common/http', '@angular/common', 'primeng/card', 'primeng/multiselect', 'primeng/dropdown', 'primeng/tabmenu', 'primeng/accordion', 'primeng/tree', 'primeng/inputtext', 'primeng/api', '@ng-bootstrap/ng-bootstrap', 'primeng/avatar', 'primeng/badge', 'primeng/button', 'primeng/calendar', 'primeng/checkbox', 'primeng/confirmdialog', 'primeng/confirmpopup', 'primeng/contextmenu', 'primeng/dialog', 'primeng/editor', 'primeng/fieldset', 'primeng/fileupload', 'primeng/inputmask', 'primeng/inputswitch', 'primeng/inputtextarea', 'primeng/knob', 'primeng/message', 'primeng/orderlist', 'primeng/password', 'primeng/progressspinner', 'primeng/radiobutton', 'primeng/ripple', 'primeng/sidebar', 'primeng/speeddial', 'primeng/steps', 'primeng/table', 'primeng/tabview', 'primeng/toast', 'primeng/treeselect', '@angular/cdk/drag-drop'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global["pics-core"] = global["pics-core"] || {}, global["pics-core"]["rbac-roles"] = {}), global.ng.core, global.rxjs, global.ng.forms, global.ng.router, global.rxjs["add/operator/map"], global.ng.common.http, global.ng.common, global.i7, global.i8, global.i9, global.i10, global.i11, global.i12, global.i16, global.i17, global.ngBootstrap, global.avatar, global.badge, global.button, global.calendar, global.checkbox, global.confirmdialog, global.confirmpopup, global.contextmenu, global.dialog, global.editor, global.fieldset, global.fileupload, global.inputmask, global.inputswitch, global.inputtextarea, global.knob, global.message, global.orderlist, global.password, global.progressspinner, global.radiobutton, global.ripple, global.sidebar, global.speeddial, global.steps, global.table, global.tabview, global.toast, global.treeselect, global.ng.cdk.dragDrop));
-})(this, (function (exports, i0, rxjs, i1$2, i1, map, i1$1, i14, i7, i8, i9, i10, i11, i12, i16, i17, ngBootstrap, avatar, badge, button, calendar, checkbox, confirmdialog, confirmpopup, contextmenu, dialog, editor, fieldset, fileupload, inputmask, inputswitch, inputtextarea, knob, message, orderlist, password, progressspinner, radiobutton, ripple, sidebar, speeddial, steps, table, tabview, toast, treeselect, dragDrop) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/forms'), require('@angular/router'), require('rxjs/add/operator/map'), require('@angular/common'), require('primeng/card'), require('primeng/multiselect'), require('primeng/dropdown'), require('primeng/tabmenu'), require('primeng/accordion'), require('primeng/tree'), require('primeng/inputtext'), require('primeng/api'), require('primeng/tooltip'), require('@angular/common/http'), require('@ng-bootstrap/ng-bootstrap'), require('primeng/avatar'), require('primeng/badge'), require('primeng/button'), require('primeng/calendar'), require('primeng/checkbox'), require('primeng/confirmdialog'), require('primeng/confirmpopup'), require('primeng/contextmenu'), require('primeng/dialog'), require('primeng/editor'), require('primeng/fieldset'), require('primeng/fileupload'), require('primeng/inputmask'), require('primeng/inputswitch'), require('primeng/inputtextarea'), require('primeng/knob'), require('primeng/message'), require('primeng/orderlist'), require('primeng/password'), require('primeng/progressspinner'), require('primeng/radiobutton'), require('primeng/ripple'), require('primeng/sidebar'), require('primeng/speeddial'), require('primeng/steps'), require('primeng/table'), require('primeng/tabview'), require('primeng/toast'), require('primeng/treeselect'), require('@angular/cdk/drag-drop')) :
+    typeof define === 'function' && define.amd ? define('@pics-core/rbac-roles', ['exports', '@angular/core', 'rxjs', '@angular/forms', '@angular/router', 'rxjs/add/operator/map', '@angular/common', 'primeng/card', 'primeng/multiselect', 'primeng/dropdown', 'primeng/tabmenu', 'primeng/accordion', 'primeng/tree', 'primeng/inputtext', 'primeng/api', 'primeng/tooltip', '@angular/common/http', '@ng-bootstrap/ng-bootstrap', 'primeng/avatar', 'primeng/badge', 'primeng/button', 'primeng/calendar', 'primeng/checkbox', 'primeng/confirmdialog', 'primeng/confirmpopup', 'primeng/contextmenu', 'primeng/dialog', 'primeng/editor', 'primeng/fieldset', 'primeng/fileupload', 'primeng/inputmask', 'primeng/inputswitch', 'primeng/inputtextarea', 'primeng/knob', 'primeng/message', 'primeng/orderlist', 'primeng/password', 'primeng/progressspinner', 'primeng/radiobutton', 'primeng/ripple', 'primeng/sidebar', 'primeng/speeddial', 'primeng/steps', 'primeng/table', 'primeng/tabview', 'primeng/toast', 'primeng/treeselect', '@angular/cdk/drag-drop'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global["pics-core"] = global["pics-core"] || {}, global["pics-core"]["rbac-roles"] = {}), global.ng.core, global.rxjs, global.ng.forms, global.ng.router, global.rxjs["add/operator/map"], global.ng.common, global.i7, global.i8, global.i9, global.i10, global.i11, global.i12, global.i16, global.i17, global.i18, global.ng.common.http, global.ngBootstrap, global.avatar, global.badge, global.button, global.calendar, global.checkbox, global.confirmdialog, global.confirmpopup, global.contextmenu, global.dialog, global.editor, global.fieldset, global.fileupload, global.inputmask, global.inputswitch, global.inputtextarea, global.knob, global.message, global.orderlist, global.password, global.progressspinner, global.radiobutton, global.ripple, global.sidebar, global.speeddial, global.steps, global.table, global.tabview, global.toast, global.treeselect, global.ng.cdk.dragDrop));
+})(this, (function (exports, i0, rxjs, i1$1, i1, map, i14, i7, i8, i9, i10, i11, i12, i16, i17, i18, http, ngBootstrap, avatar, badge, button, calendar, checkbox, confirmdialog, confirmpopup, contextmenu, dialog, editor, fieldset, fileupload, inputmask, inputswitch, inputtextarea, knob, message, orderlist, password, progressspinner, radiobutton, ripple, sidebar, speeddial, steps, table, tabview, toast, treeselect, dragDrop) { 'use strict';
 
     function _interopNamespace(e) {
         if (e && e.__esModule) return e;
@@ -23,9 +23,8 @@
     }
 
     var i0__namespace = /*#__PURE__*/_interopNamespace(i0);
-    var i1__namespace$2 = /*#__PURE__*/_interopNamespace(i1$2);
-    var i1__namespace = /*#__PURE__*/_interopNamespace(i1);
     var i1__namespace$1 = /*#__PURE__*/_interopNamespace(i1$1);
+    var i1__namespace = /*#__PURE__*/_interopNamespace(i1);
     var i14__namespace = /*#__PURE__*/_interopNamespace(i14);
     var i7__namespace = /*#__PURE__*/_interopNamespace(i7);
     var i8__namespace = /*#__PURE__*/_interopNamespace(i8);
@@ -35,6 +34,7 @@
     var i12__namespace = /*#__PURE__*/_interopNamespace(i12);
     var i16__namespace = /*#__PURE__*/_interopNamespace(i16);
     var i17__namespace = /*#__PURE__*/_interopNamespace(i17);
+    var i18__namespace = /*#__PURE__*/_interopNamespace(i18);
 
     var RbacRolesService = /** @class */ (function () {
         function RbacRolesService() {
@@ -63,6 +63,10 @@
             addPolicyGroup: '/access-control/role',
             getAllOrgRole: '/access-control/role/organization/{orgid}',
             dossier: '/dossier'
+        },
+        microstrategy: {
+            login: '/platform/microstrategy/login',
+            getLibrary: '/platform/microstrategy/library'
         }
     };
     var UserConfig = /** @class */ (function () {
@@ -124,7 +128,7 @@
             permissionRoleById: '/access-control/permission/role/{id}',
         },
         page: {
-            getPageInformation: '/org/user/page/menulist',
+            getPageInformation: '/org/user/page/menulist/{id}',
             updateMenuOrder: '/access-control/permission/updateMenuOrder'
         }
     };
@@ -809,119 +813,39 @@
     };
 
     var MicrostrategyService = /** @class */ (function () {
-        function MicrostrategyService(http, alertService, permissionStore, _storeservice) {
+        function MicrostrategyService(_storeservice) {
             var _this = this;
-            this.http = http;
-            this.alertService = alertService;
-            this.permissionStore = permissionStore;
             this._storeservice = _storeservice;
             this._storeservice.currentStore.subscribe(function (res) {
                 if (res['RBACORG'] && res['RBACORG'] !== '') {
+                    _this.httpService = res['HTTPSERVICE'];
                     _this.RBACORG = res['RBACORG'];
                     _this.environment = _this.RBACORG['environment'] ? _this.RBACORG['environment'] : '';
                 }
             });
         }
-        MicrostrategyService.prototype.getAuthToken = function () {
-            var _a, _b, _c;
-            var body = {
-                username: (_a = this.environment) === null || _a === void 0 ? void 0 : _a.mstrUsername,
-                password: (_b = this.environment) === null || _b === void 0 ? void 0 : _b.mstrPassword,
-                loginMode: 1
-            };
-            return this.http.post(((_c = this.environment) === null || _c === void 0 ? void 0 : _c.mstrURL) + "/api/auth/login", body, {
-                withCredentials: true,
-                headers: { 'Content-type': 'application/json' },
-                observe: 'response'
-            });
-        };
-        MicrostrategyService.prototype.getDossier = function (projectId, dossierId, pageNo) {
-            var _this = this;
-            var _a;
-            var permissions = this.permissionStore.state;
-            var projectUrl = ((_a = this.environment) === null || _a === void 0 ? void 0 : _a.mstrURL) + "/app/" + projectId;
-            var dossierUrl = projectUrl + "/" + dossierId + "/" + pageNo;
-            microstrategy.dossier
-                .create({
-                placeholder: document.getElementById('dossierContainer'),
-                url: dossierUrl,
-                navigationBar: {
-                    enabled: true,
-                    gotoLibrary: permissions === null || permissions === void 0 ? void 0 : permissions.ANA_LIBRARY,
-                    title: true,
-                    toc: true,
-                    reset: true,
-                    reprompt: true,
-                    share: true,
-                    comment: true,
-                    notification: true,
-                    filter: true,
-                    options: true,
-                    search: true,
-                    bookmark: true
-                },
-                enableCustomAuthentication: true,
-                enableResponsive: false,
-                containerWidth: 400,
-                containerHeight: 400,
-                customAuthenticationType: microstrategy.dossier.CustomAuthenticationType.AUTH_TOKEN,
-                getLoginToken: function () { return __awaiter(_this, void 0, void 0, function () {
-                    var response;
-                    return __generator(this, function (_d) {
-                        switch (_d.label) {
-                            case 0: return [4 /*yield*/, this.getAuthToken().toPromise()];
-                            case 1:
-                                response = _d.sent();
-                                return [2 /*return*/, response.headers.get('x-mstr-authtoken')];
-                        }
-                    });
-                }); }
-            })
-                .catch(function (_err) { var _a; return _this.alertService.error("Failed to connect " + ((_a = _this.environment) === null || _a === void 0 ? void 0 : _a.mstrURL)); });
-        };
-        MicrostrategyService.prototype.getLibraryDetails = function (RBACORG) {
-            var _a, _b;
-            return __awaiter(this, void 0, void 0, function () {
-                var token, authtoken, headerInfo;
-                return __generator(this, function (_d) {
-                    switch (_d.label) {
-                        case 0: return [4 /*yield*/, this.getAuthToken().toPromise()];
-                        case 1:
-                            token = _d.sent();
-                            authtoken = token.headers.get('x-mstr-authtoken');
-                            headerInfo = {
-                                'Content-Type': 'application/json',
-                                'Accept': 'application/json',
-                                'X-MSTR-AuthToken': authtoken ? authtoken : '',
-                                'X-MSTR-ProjectID': (_a = this.environment) === null || _a === void 0 ? void 0 : _a.mstrProjectID
-                            };
-                            return [2 /*return*/, this.http
-                                    .get(((_b = this.environment) === null || _b === void 0 ? void 0 : _b.mstrURL) + "/api/library", {
-                                    withCredentials: true,
-                                    headers: headerInfo
-                                })
-                                    .toPromise()
-                                    .then(function (response) {
-                                    return response.map(function (mstr) { return ({
-                                        id: mstr.target.id,
-                                        projectId: mstr.projectId,
-                                        name: mstr.target.name
-                                    }); });
-                                })];
-                    }
-                });
+        MicrostrategyService.prototype.getLibraryDetails = function () {
+            return this.httpService
+                .get(RoleConfig.EndPoint.microstrategy.getLibrary)
+                .toPromise()
+                .then(function (response) {
+                return response.data.map(function (mstr) { return ({
+                    id: mstr.target.id,
+                    projectId: mstr.projectId,
+                    name: mstr.target.name
+                }); });
             });
         };
         return MicrostrategyService;
     }());
-    MicrostrategyService.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: MicrostrategyService, deps: [{ token: i1__namespace$1.HttpClient }, { token: AlertService }, { token: PermissionStore }, { token: DataStoreService }], target: i0__namespace.ɵɵFactoryTarget.Injectable });
+    MicrostrategyService.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: MicrostrategyService, deps: [{ token: DataStoreService }], target: i0__namespace.ɵɵFactoryTarget.Injectable });
     MicrostrategyService.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: MicrostrategyService, providedIn: 'root' });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: MicrostrategyService, decorators: [{
                 type: i0.Injectable,
                 args: [{
                         providedIn: 'root'
                     }]
-            }], ctorParameters: function () { return [{ type: i1__namespace$1.HttpClient }, { type: AlertService }, { type: PermissionStore }, { type: DataStoreService }]; } });
+            }], ctorParameters: function () { return [{ type: DataStoreService }]; } });
 
     var RbacService = /** @class */ (function () {
         function RbacService(_storeservice) {
@@ -1018,8 +942,8 @@
         RbacService.prototype.getManagementGroupTree = function (_organizationid) {
             return this.httpService.get('/org/management-group/organization/tree');
         };
-        RbacService.prototype.getAllPages = function () {
-            return this.httpService.get(PermissionsURL.EndPoints.page.getPageInformation);
+        RbacService.prototype.getAllPages = function (role_id) {
+            return this.httpService.get(PermissionsURL.EndPoints.page.getPageInformation.replace('{id}', role_id));
         };
         RbacService.prototype.updateMenuOrder = function (page) {
             return this.httpService.post(PermissionsURL.EndPoints.page.updateMenuOrder, page);
@@ -1213,45 +1137,141 @@
             this.rolesService = rolesService;
             this._storeservice = _storeservice;
             this.permissionService = permissionService;
+            this.deleteactive_user = false;
+            this.deleteactive_buttonok = false;
             this.roleList = [];
             this.filteredRoleList = [];
             this.selectedPermissionsGroup = [];
             this.userroles = [];
             this.modelRoleName = '';
             this.permissions = [];
+            this.filterPermissions = [];
             this.landingPage = [];
             this.RBACORG = new RBACINFO();
             this.items = [];
             this.mainMenuList = [];
             this.reArrangedList = [];
+            this.dublicateLandingPage = [];
             this.menuList = [];
             this.subMenuList = [];
             this.parent = [];
             this.childMenuList = [];
             this.showChildren = false;
             this.parentMenulist = [];
+            this.validationErrors = {};
             this.buildTree = function (parentId) { return function (item) {
                 var children = _this.menuList.filter(function (child) { return child.parentid === item.id; });
                 return Object.assign(Object.assign({}, item), (children.length > 0 && { children: children.map(_this.buildTree(item.id)) }));
             }; };
+            this.originalPermissions = [];
             this.formSubmit = false;
-            this.initializeform();
             this.orgSubs = this._storeservice.currentStore.subscribe(function (res) {
+                _this.inputValidationMethod = res['INPUTVALIDATIONMETHOD'];
                 if (res['RBACORG'] && res['RBACORG'] !== '') {
                     _this.formSubmit = false;
                     _this.permissionAllow = false;
                     _this.RBACORG = res['RBACORG'];
                     _this.environment = _this.RBACORG['environment'];
                     _this.orgId = parseInt(_this.RBACORG['orgID']);
-                    _this.getReportDashboard();
                     _this.httpService = res['HTTPSERVICE'];
-                    if (_this.orgId) {
-                        _this.getRoleList();
-                        _this.getPolicyGroupList();
-                        _this.getLandingPage();
-                    }
                 }
             });
+        }
+        RolesComponent.prototype.nestedData = function () {
+            this.mainMenuList = this.menuList.filter(function (item) { return !item.parentid; }).map(this.buildTree(null));
+        };
+        RolesComponent.prototype.ngOnInit = function () {
+            this.initializeform();
+            this.getReportDashboard();
+            this.getRoleList();
+            this.getPolicyGroupList();
+            this.getLandingPage();
+            this.getTabs();
+        };
+        RolesComponent.prototype.ngOnDestroy = function () {
+            this.orgSubs.unsubscribe();
+        };
+        RolesComponent.prototype.initializeform = function () {
+            this.roleForm = this.formBuilder.group({
+                name: ['', i1$1.Validators.required],
+                defaultpageid: ['', i1$1.Validators.required],
+                parentid: [2],
+                policyGroupId: ['', i1$1.Validators.required],
+                dossierid: []
+            });
+        };
+        Object.defineProperty(RolesComponent.prototype, "formValidate", {
+            get: function () {
+                return this.roleForm.controls;
+            },
+            enumerable: false,
+            configurable: true
+        });
+        RolesComponent.prototype.onInput = function (event, fieldtype, label, required) {
+            var error = this.inputValidationMethod(event, fieldtype, label, required);
+            if (error && typeof error === 'string') {
+                this.validationErrors[label] = error;
+            }
+            else {
+                delete this.validationErrors[label];
+            }
+        };
+        RolesComponent.prototype.getLandingPage = function () {
+            var _this = this;
+            this.rolesService.getLandingPage('1').subscribe(function (res) {
+                if (res) {
+                    _this.landingPage = res['data'].filter(function (x) { return x.route.charAt(0) === '/'; });
+                }
+                _this.dublicateLandingPage = __spreadArray([], __read(_this.landingPage));
+            }, function (error) { return console.log(error); });
+        };
+        RolesComponent.prototype.getRoleList = function (_key) {
+            var _this = this;
+            this.rolesService.getAllUserRole(this.orgId).subscribe(function (res) {
+                _this.roleList = res['data'].filter(function (a) { return a.name !== 'Super admin'; });
+                _this.filteredRoleList = _this.roleList;
+            }, function (err) { return console.log(err); });
+        };
+        RolesComponent.prototype.getPolicyGroupList = function (_managementGroupId) {
+            var _this = this;
+            this.rolesService.getOrgPolicyGroupList(this.orgId).subscribe(function (res) {
+                _this.policyGroupList = res['data'];
+            }, function (err) { return console.log(err); });
+        };
+        RolesComponent.prototype.clearSearch = function (event) {
+            var inputElement = document.querySelector('.form-control');
+            if (inputElement) {
+                inputElement.value = '';
+                this.filteredRoleList = this.roleList;
+            }
+        };
+        RolesComponent.prototype.onClickAddRole = function () {
+            this.initializeform();
+            this.permissionAllow = false;
+            this.permissions = [];
+            this.filterPermissions = [];
+            this.roleForm.reset();
+            this.roleId = 0;
+            this.firstTab = true;
+            this.validationErrors = {};
+        };
+        RolesComponent.prototype.searchRole = function (event) {
+            var value = event.target.value.toLowerCase();
+            this.filteredRoleList = this.roleList.filter(function (a) { var _a; return (_a = a === null || a === void 0 ? void 0 : a.name) === null || _a === void 0 ? void 0 : _a.toLowerCase().startsWith(value); });
+        };
+        RolesComponent.prototype.clearPermission = function (event) {
+            var inputElement = document.querySelector('.clearbox');
+            if (inputElement) {
+                inputElement.value = '';
+            }
+            this.permissions = this.originalPermissions;
+        };
+        RolesComponent.prototype.searchRolePermission = function (event) {
+            var value = event.target.value.toLowerCase();
+            this.permissions = this.originalPermissions.filter(function (a) { var _a; return (_a = a === null || a === void 0 ? void 0 : a.description) === null || _a === void 0 ? void 0 : _a.toLowerCase().startsWith(value); });
+        };
+        RolesComponent.prototype.getTabs = function () {
+            var _this = this;
             this.items = [
                 {
                     label: 'Permissions',
@@ -1270,62 +1290,16 @@
             ];
             this.activeItem = this.items[0];
             this.firstTab = true;
-        }
-        RolesComponent.prototype.nestedData = function () {
-            this.mainMenuList = this.menuList.filter(function (item) { return !item.parentid; }).map(this.buildTree(null));
-        };
-        RolesComponent.prototype.ngOnInit = function () {
-            console.log();
-        };
-        RolesComponent.prototype.ngOnDestroy = function () {
-            this.orgSubs.unsubscribe();
-        };
-        RolesComponent.prototype.initializeform = function () {
-            this.roleForm = this.formBuilder.group({
-                name: ['', i1$2.Validators.required],
-                defaultpageid: ['', i1$2.Validators.required],
-                parentid: [2],
-                policyGroupId: ['', i1$2.Validators.required],
-                dossierid: ['']
-            });
-        };
-        Object.defineProperty(RolesComponent.prototype, "formValidate", {
-            get: function () {
-                return this.roleForm.controls;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        RolesComponent.prototype.getLandingPage = function () {
-            var _this = this;
-            this.rolesService.getLandingPage('1').subscribe(function (res) {
-                if (res) {
-                    _this.landingPage = res['data'].filter(function (x) { return x.route.charAt(0) === '/'; });
-                }
-            }, function (error) { return console.log(error); });
-        };
-        RolesComponent.prototype.getRoleList = function (_key) {
-            var _this = this;
-            this.rolesService.getAllUserRole(this.orgId).subscribe(function (res) {
-                _this.roleList = res['data'].filter(function (a) { return a.name !== 'Super admin'; });
-                _this.filteredRoleList = _this.roleList;
-            }, function (err) { return console.log(err); });
-        };
-        RolesComponent.prototype.getPolicyGroupList = function (_managementGroupId) {
-            var _this = this;
-            this.rolesService.getOrgPolicyGroupList(this.orgId).subscribe(function (res) {
-                _this.policyGroupList = res['data'];
-            }, function (err) { return console.log(err); });
-        };
-        RolesComponent.prototype.searchRole = function (event) {
-            var value = event.target.value.toLowerCase();
-            this.filteredRoleList = this.roleList.filter(function (a) { var _a; return (_a = a === null || a === void 0 ? void 0 : a.name) === null || _a === void 0 ? void 0 : _a.toLowerCase().startsWith(value); });
         };
         RolesComponent.prototype.getRoleInfo = function (roleid) {
             var _this = this;
+            this.validationErrors = {};
+            this.clearPermission();
+            this.dublicateLandingPage = this.landingPage;
             this.roleId = roleid;
             if (roleid) {
                 this.isDisabled = true;
+                this.getTabs();
                 this.rolesService.getRoleById(roleid).subscribe(function (res) {
                     _this.permissionAllow = true;
                     _this.roleInformation(res);
@@ -1352,6 +1326,7 @@
                 dossierid: (_b = JSON.parse(res.data.dossierid)) === null || _b === void 0 ? void 0 : _b.id
             });
             this.permissions = __spreadArray([], __read((_c = res === null || res === void 0 ? void 0 : res.data) === null || _c === void 0 ? void 0 : _c.permissions));
+            this.filterPermissions = this.permissions;
             this.permissions = this.permissions
                 .map(function (f) {
                 return Object.assign({ isFormBuilder: false }, f);
@@ -1371,6 +1346,7 @@
                     _this.getSelectedPermisions(ele);
                 });
             }
+            this.originalPermissions = this.permissions;
             this.isDisabledOther = !this.hasAccess;
             var isAdmin = this.userroles.find(function (_d) {
                 var name = _d.name;
@@ -1380,9 +1356,9 @@
                 this.roleForm.enable();
                 this.isDisabledOther = false;
             }
-            else if (!this.hasAccess || res.isreadonly) {
-                this.roleForm.controls['name'].disable();
-            }
+            // else if (!this.hasAccess || res.isreadonly) {
+            //   this.roleForm.controls['name'].disable();
+            // }
             else {
                 this.roleForm.enable();
             }
@@ -1560,6 +1536,9 @@
                 });
             }
         };
+        RolesComponent.prototype.resetReportDashboardList = function () {
+            this.reportDashboardList = this.duplicatereportDashboardList;
+        };
         RolesComponent.prototype.addRole = function () {
             var _this = this;
             var _a, _b;
@@ -1637,8 +1616,23 @@
             this.formSubmit = false;
             this.permissionAllow = false;
             this.roleId = 0;
+            this.validationErrors = {};
         };
-        RolesComponent.prototype.delete = function (event, id) {
+        RolesComponent.prototype.delete = function (event, id, item) {
+            if ((item === null || item === void 0 ? void 0 : item.active_user) !== null) {
+                this.deleteactive_user = false;
+                this.deleteactive_buttonok = false;
+                // Perform action when active_user is not null
+                console.log('Deleting Role with active user');
+                this.modalContent = 'This Role is currently associated with active users. De-link users from this Role, to proceed with deleting.';
+            }
+            else {
+                // Perform action when active_user is null
+                console.log('Deleting Role');
+                this.modalContent = 'Are you sure you want to delete the Role?';
+                this.deleteactive_user = true;
+                this.deleteactive_buttonok = true;
+            }
             event.stopPropagation();
             this.deletedId = id;
             $('#Deleteuser').modal('show');
@@ -1654,14 +1648,18 @@
         };
         RolesComponent.prototype.getReportDashboard = function () {
             return __awaiter(this, void 0, void 0, function () {
-                var _d;
-                return __generator(this, function (_e) {
-                    switch (_e.label) {
+                var _d, _e;
+                return __generator(this, function (_f) {
+                    switch (_f.label) {
                         case 0:
                             _d = this;
-                            return [4 /*yield*/, this.mstrService.getLibraryDetails(this.RBACORG)];
+                            return [4 /*yield*/, this.mstrService.getLibraryDetails()];
                         case 1:
-                            _d.reportDashboardList = _e.sent();
+                            _d.reportDashboardList = _f.sent();
+                            _e = this;
+                            return [4 /*yield*/, this.mstrService.getLibraryDetails()];
+                        case 2:
+                            _e.duplicatereportDashboardList = _f.sent();
                             return [2 /*return*/];
                     }
                 });
@@ -1675,11 +1673,19 @@
         //   return true;
         // }
         RolesComponent.prototype.onModelRole = function (value) {
-            this.modelRoleName = value.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
+            this.modelRoleName = value;
+        };
+        RolesComponent.prototype.searchLandingPageList = function (event) {
+            var value = event.target.value.toLowerCase();
+            this.dublicateLandingPage = this.landingPage.filter(function (a) { var _a; return (_a = a === null || a === void 0 ? void 0 : a.name) === null || _a === void 0 ? void 0 : _a.toLowerCase().startsWith(value); });
+        };
+        RolesComponent.prototype.resetLandingPageList = function () {
+            this.dublicateLandingPage = this.landingPage;
         };
         RolesComponent.prototype.activateMenu = function (event) {
-            if (event.item.label == 'Page') {
+            if (event.item.label == 'Permissions') {
                 this.firstTab = true;
+                this.clearPermission();
             }
             else {
                 this.firstTab = false;
@@ -1688,7 +1694,7 @@
         };
         RolesComponent.prototype.getPageInformation = function () {
             var _this = this;
-            this.permissionService.getAllPages().subscribe(function (res) {
+            this.permissionService.getAllPages(this.roleId).subscribe(function (res) {
                 _this.menuList = res === null || res === void 0 ? void 0 : res.data;
                 res.data.map(function (item, index) {
                     item.label = item.name;
@@ -1732,7 +1738,7 @@
                 //       if(list.parentid == subitem.id)
                 //       {
                 //         let obj = {
-                //             key : 3,              
+                //             key : 3,
                 //             id: list.id,
                 //             parentid: list.parentid,
                 //             label: list.name,
@@ -1783,7 +1789,10 @@
                 _this.alertService.success('Updated Successfully!');
                 // this.Service.sendUpdate('Updated Successfully');
                 // this.getPageInformation();
-                window.location.reload();
+                var userRole = sessionStorage.getItem('role_id');
+                if (Number(userRole) === _this.roleId) {
+                    window.location.reload();
+                }
             });
         };
         RolesComponent.prototype.nodeDrop = function (event) {
@@ -1792,18 +1801,18 @@
                     event.accept();
                 }
                 else {
-                    this.alertService.success('not allowed to drop');
+                    this.alertService.error('Not Allowed to Drop');
                 }
                 console.log('this.mainMenuList', this.mainMenuList);
             }
             else {
-                this.alertService.success('not allowed to drop');
+                this.alertService.error('Not Allowed to Drop');
             }
         };
         return RolesComponent;
     }());
-    RolesComponent.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RolesComponent, deps: [{ token: i0__namespace.Injector }, { token: i1__namespace$2.FormBuilder }, { token: AlertService }, { token: MicrostrategyService }, { token: RbacService }, { token: DataStoreService }, { token: RbacService }], target: i0__namespace.ɵɵFactoryTarget.Component });
-    RolesComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: RolesComponent, selector: "roles", ngImport: i0__namespace, template: "<app-alert></app-alert>\r\n<div class=\"permission\">\r\n  <div class=\"row\" [formGroup]=\"roleForm\">\r\n    <div class=\"col-lg-4 col-md-6 col-12\">\r\n      <div class=\"clearfix\"></div>\r\n      <div class=\"tab-content py-2 px-2 px-sm-0\">\r\n        <div class=\"tab-pane fade show active\">\r\n          <div class=\"form-group bgiconsearch\">\r\n            <input class=\"form-control\" fieldKey=\"SETTINGS_ROL_SEARCH_BY_NAME\" placeholder=\"Search by Role name\"\r\n              type=\"text\" (keyup)=\"searchRole($event)\" />\r\n          </div>\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"useracess\">\r\n            <div class=\"d-flex align-items-center justify-content-center h-100 w-100 ng-star-inserted\"\r\n              *ngIf=\"!filteredRoleList.length\">\r\n              <p>No Record Found</p>\r\n            </div>\r\n            <ng-container *ngFor=\"let item of filteredRoleList\">\r\n              <div class=\"row userdata align-items-center\" (click)=\"getRoleInfo(item.id)\" [ngClass]=\"{ active: +item.id === roleId }\">\r\n                <div class=\"col-md-10 col-sm-10 col-10 overflow_txt\">\r\n                  <span class=\"nameuser\">{{ item.name }}</span> <br />\r\n                </div>\r\n                <div class=\"col-md-2 text-right\">\r\n                  <span class=\"right-icons\">\r\n                    <em class=\"fa fa-trash text-primary\" (click)=\"delete($event, item.id)\" aria-hidden=\"true\"\r\n                      *showField=\"'SETTINGS_ROL_DELETE'\"></em>\r\n                  </span>\r\n                </div>\r\n              </div>\r\n            </ng-container>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-8 col-md-6 col-12 roles-right group-role mt-2\">\r\n      <p-card class=\"rbac-card\" [style]=\"{ width: '100%', 'margin-bottom': '2em' }\">\r\n        <div class=\"strip_head toggleleft\">\r\n          <span class=\"report_head font-weight-bold\">Role Details</span>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid p-grid\">\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label for=\"rolesName\" class=\"referral-form-labels\">Role Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"rolesName\" type=\"text\" fieldKey=\"SETTINGS_ROL_ROLE_NAME\" formControlName=\"name\"\r\n              placeholder=\"Enter Role Name\" aria-describedby=\"rolesName\" [(ngModel)]=\"modelRoleName\"\r\n              (ngModelChange)=\"onModelRole($event)\" pInputText />\r\n            <div *ngIf=\"formValidate['name'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['name'].invalid\" class=\"p-error block\">Role Name is required </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"policyGroupList\" for=\"policyGroupList\" class=\"referral-form-labels\"\r\n              >Policy Groups\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-multiSelect name=\"policyGroupList\" [options]=\"policyGroupList\" formControlName=\"policyGroupId\"\r\n              defaultLabel=\"Select Policy Groups\" optionLabel=\"policygroupname\" optionValue=\"id\"\r\n              inputId=\"policyGroupList\" ariaFilterLabel=\"null\" fieldKey=\"SETTINGS_ROL_POLICY_GROUP\" display=\"chip\">\r\n            </p-multiSelect>\r\n            <div *ngIf=\"formValidate['policyGroupId'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['policyGroupId'].invalid\" class=\"p-error block\">Policy Group is required </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"landingPage\" for=\"landingPage\" class=\"referral-form-labels\">Landing Page\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-dropdown name=\"landingPage\" [options]=\"landingPage\" formControlName=\"defaultpageid\"\r\n              defaultLabel=\"Select Landing Page\" fieldKey=\"SETTINGS_ROL_LANDING_PAGE\" optionLabel=\"name\"\r\n              optionValue=\"id\" inputId=\"landingPage\">\r\n            </p-dropdown>\r\n            <div *ngIf=\"formValidate['defaultpageid'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['defaultpageid'].invalid\" class=\"p-error block\">Landing Page is required\r\n              </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"dossierId\" for=\"dossierId\" class=\"referral-form-labels\">Report Dashboard</label>\r\n            <p-dropdown\r\n              [options]=\"reportDashboardList\"\r\n              optionLabel=\"name\"\r\n              id=\"dossierid\"\r\n              optionValue=\"id\"\r\n              placeholder=\"Select ID\"\r\n              formControlName=\"dossierid\"></p-dropdown>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <!-- <button\r\n              class=\"pull-right mb-2 btn btn-primary btncommon report_button\"\r\n              fieldKey=\"SETTINGS_ROL_CONFIGURE_PERMISSION\"\r\n              (click)=\"addNewRole('1')\">\r\n              Configure Permission\r\n            </button> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"mt-2\" *ngIf=\"permissionAllow\">\r\n          <button fieldKey=\"SETTINGS_ROL_RESET\" class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\"\r\n            (click)=\"selectAllAccess(false)\">\r\n            Reset\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_SELECT_ALL\"\r\n            (click)=\"selectAllAccess(true)\">\r\n            Select All\r\n          </button>\r\n          <!-- <br /> -->\r\n        </div>\r\n        <div class=\"strip_head toggleleft adjusttop\" *ngIf=\"permissionAllow\">\r\n          <!-- <span class=\"report_head font-weight-bold\">Permissions</span> -->\r\n          <p-tabMenu [model]=\"items\" [activeItem]=\"activeItem\"></p-tabMenu>\r\n        </div>\r\n\r\n        <div *ngIf=\"firstTab\">\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"mt-4 mb-4\">\r\n            <p-accordion class=\"w-100\">\r\n              <p-accordionTab class=\"w-100\" *ngFor=\"let page of permissions; let i = index\">\r\n                <ng-template pTemplate=\"header\">\r\n                  {{ page.description }}11\r\n                </ng-template>\r\n                <ng-template pTemplate=\"content\">\r\n                  <div class=\"heading_analysis datamargin\">\r\n                    <div class=\"Customcheckbox pl-1\">\r\n                      <input type=\"checkbox\" class=\"styled-checkbox\" id=\"custom{{ i }}\"\r\n                        (change)=\"selectAllPage(i, $event)\" [checked]=\"page?.checked\" />\r\n                      <label for=\"custom{{ i }}\" class=\"heading_role\">{{ page.description }}22</label>\r\n                    </div>\r\n                  </div>\r\n\r\n                  <ul class=\"marginul_list ecms_rolescroll\">\r\n                    <ng-container *ngFor=\"let permission of page?.permissions; let j = index\">\r\n                      <ng-container *ngIf=\"isPrivilage(permission); else permissionOnly\">\r\n                        <li>\r\n                          <div class=\"inner_childaccess d-flex mt-0 py-1\">\r\n                            <div class=\"d-inline-flex align-items-center\">\r\n                              <label class=\"Customcheckbox pl-1 mb-0\">\r\n                                <input type=\"checkbox\" [checked]=\"permission?.checked\"\r\n                                  (change)=\"selectAllPrivilage(i, j, $event)\" id=\"description{{ j }}\" />\r\n                                <span class=\"checkmark\"></span>\r\n                              </label>\r\n                              <label for=\"description{{ j }}\" class=\"heading_role mb-0\">{{\r\n                                permission.description\r\n                                }}33</label>\r\n                            </div>\r\n                          </div>\r\n                        </li>\r\n                        <li class=\"ml-1\" *ngFor=\"let privilege of permission?.permissions; let k = index\">\r\n                          <div class=\"d-flex\">\r\n                            <div class=\"custom-control custom-switch\">\r\n                              <input type=\"checkbox\" [checked]=\"privilege?.checked\" class=\"custom-control-input\"\r\n                                id=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\"\r\n                                (click)=\"selectPrivilege(i, j, k, $event)\" />\r\n                              <label class=\"custom-control-label\" for=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\">{{\r\n                                privilege.description\r\n                                }}44</label>\r\n                            </div>\r\n                          </div>\r\n                        </li>\r\n                      </ng-container>\r\n                      <ng-template #permissionOnly>\r\n                        <li>\r\n                          <div class=\"custom-control custom-switch\">\r\n                            <input type=\"checkbox\" [checked]=\"permission?.checked\" class=\"custom-control-input\"\r\n                              (click)=\"selectPage(i, j, $event)\" id=\"customSwitchesroles{{ i }}{{ j }}\" />\r\n                            <label class=\"custom-control-label\" for=\"customSwitchesroles{{ i }}{{ j }}\">{{\r\n                              permission.description }}55\r\n                            </label>\r\n                          </div>\r\n                        </li>\r\n                      </ng-template>\r\n                    </ng-container>\r\n                  </ul>\r\n                </ng-template>\r\n              </p-accordionTab>\r\n            </p-accordion>\r\n            <div class=\"col-md-12 box d-none\" *ngFor=\"let page of permissions; let i = index\">\r\n              <div class=\"heading_analysis datamargin\">\r\n                <div class=\"Customcheckbox\">\r\n                  <input type=\"checkbox\" class=\"styled-checkbox\" id=\"custom{{ i }}\" (change)=\"selectAllPage(i, $event)\"\r\n                    [checked]=\"page?.checked\" />\r\n                  <label for=\"custom{{ i }}\" class=\"heading_role\">{{ page.description }}66</label>\r\n                </div>\r\n              </div>\r\n\r\n              <ul class=\"marginul_list ecms_rolescroll\">\r\n                <ng-container *ngFor=\"let permission of page?.permissions; let j = index\">\r\n                  <ng-container *ngIf=\"isPrivilage(permission); else permissionOnly\">\r\n                    <li>\r\n                      <div class=\"inner_childaccess\">\r\n                        <label class=\"Customcheckbox\">\r\n                          <input type=\"checkbox\" [checked]=\"permission?.checked\"\r\n                            (change)=\"selectAllPrivilage(i, j, $event)\" />\r\n                          <span class=\"checkmark\"></span>\r\n                        </label>\r\n                        <span class=\"heading_role\">{{ permission.description }}77</span>\r\n                      </div>\r\n                    </li>\r\n                    <li *ngFor=\"let privilege of permission?.permissions; let k = index\">\r\n                      <div class=\"custom-control custom-switch\">\r\n                        <input type=\"checkbox\" [checked]=\"privilege?.checked\" class=\"custom-control-input\"\r\n                          id=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\" (click)=\"selectPrivilege(i, j, k, $event)\" />\r\n                        <label class=\"custom-control-label\" for=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\">{{\r\n                          privilege.description\r\n                          }}88</label>\r\n                      </div>\r\n                    </li>\r\n                  </ng-container>\r\n                  <ng-template #permissionOnly>\r\n                    <li>\r\n                      <div class=\"custom-control custom-switch\">\r\n                        <input type=\"checkbox\" [checked]=\"permission?.checked\" class=\"custom-control-input\"\r\n                          (click)=\"selectPage(i, j, $event)\" id=\"customSwitchesroles{{ i }}{{ j }}\" />\r\n                        <label class=\"custom-control-label\" for=\"customSwitchesroles{{ i }}{{ j }}\">{{\r\n                          permission.description }}99\r\n                        </label>\r\n                      </div>\r\n                    </li>\r\n                  </ng-template>\r\n                </ng-container>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-2\">\r\n            <button class=\"pull-right mb-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_ADD_ROLE\"\r\n              (click)=\"addRole()\">\r\n              {{ roleId ? 'Update' : 'Add' }} Role\r\n            </button>\r\n            <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" fieldKey=\"SETTINGS_ROL_CANCEL\"\r\n              (click)=\"cancel()\">\r\n              Clear\r\n            </button>\r\n          </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"!firstTab\">\r\n\r\n          <div class=\"card flex justify-content-center\">\r\n            <p-tree [value]=\"mainMenuList\" [draggableNodes]=\"true\" [droppableNodes]=\"true\" draggableScope=\"self\"\r\n              droppableScope=\"self\" class=\"w-full md:w-30rem\" selectionMode=\"single\" [(selection)]=\"selectedFile\"\r\n              [validateDrop]=\"true\" (onNodeDrop)=\"nodeDrop($event)\"></p-tree>\r\n          </div>\r\n\r\n          <div class=\"mt-2\">\r\n            <button class=\"pull-right mb-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_ADD_ROLE\"\r\n              (click)=\"updateMenuOrder()\">\r\n              Submit\r\n            </button>\r\n          </div>\r\n        </div>\r\n\r\n          <br />\r\n      </p-card>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"modal\" id=\"Deleteuser\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\">Delete Role</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        Are you sure you want to delete the Role?\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\" (click)=\"deleteRole()\">\r\n            Delete\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\">Cancel</button>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>", styles: [".head-div{padding-top:9px;padding-left:7px}.bgiconsearch{margin-bottom:5px;padding-bottom:0;font-size:var(--font-13)}.useracess{border-radius:2px;padding:5px 0;max-height:calc(100vh - 227px);overflow-y:auto}.userempty{max-width:none;border-radius:50%;height:35px;width:35px}.row.userdata{margin:0;border-bottom:solid 1px var(--table-border);padding:5px 0;cursor:pointer}.overflow_txt{overflow:hidden;text-overflow:ellipsis}span.nameuser{font-size:var(--font-13);color:var(--label-text);font-weight:600}.userid,span.emailuser{font-size:var(--font-13);color:#838383}.heading_analysis{padding-bottom:0;border-bottom:1px solid var(--table-border)}.Customcheckbox{position:relative;padding-top:0;padding-left:10px}.heading_role{padding-left:10px;font-size:var(--font-13);top:-2px;position:relative;font-weight:700}.marginul_list{padding:0;margin:0}.marginul_list li{list-style:none;padding-top:5px}.marginul_list li label{color:var(--text-dark);text-transform:capitalize;font-size:var(--font-13)}.marginul_list.ecms_rolescroll{max-height:250px;overflow:auto;margin-bottom:20px}.ecms_rolescroll::-webkit-scrollbar{width:.5em;height:.5em}.ecms_rolescroll::-webkit-scrollbar-track{box-shadow:inset 0 0 6px #0000004d;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)}.ecms_rolescroll::-webkit-scrollbar-thumb{background-color:#a9a9a9;outline:1px solid slategrey}.inner_childaccess{margin-top:9px;margin-left:3px;border-bottom:1px solid var(--table-border)}.inner_childaccess .heading_role{font-size:var(--font-13);font-weight:700}.Customcheckbox input{display:inline-block}.Customcheckbox:hover input~.checkmark{border:solid 2px #2196f3}.Customcheckbox input~.checkmark{display:none}.Customcheckbox input:checked~.checkmark{display:none;border:solid 2px #1db766;background-color:#1db766}.Customcheckbox input:checked~.checkmark:after{display:block}.Customcheckbox .checkmark:after{left:6px;top:2px;width:5px;height:10px;border:solid #ffffff;border-width:0 2px 2px 0;transform:rotate(45deg)}.custom-control-input:checked~.custom-control-label:before{color:#fff;border:#1db766!important;background:#1db766!important}.custom-control.custom-switch.toggleleft .custom-control-label{padding-top:3px;font-size:var(--font-13)}.custom-switch .custom-control-label:after{top:calc(.25rem + 3px)}.toggle .custom-control-input:checked~.custom-control-label:before{color:#fff;border:#1db766!important;background:#1db766!important}.toggle .custom-control-input~.custom-control-label:before{color:#fff;border:#8c8c8c;background:#8c8c8c}.toggle .custom-control-label:after{background-color:#fff}.custom-switch .custom-control-label:before{left:-2.25rem;width:1.75rem;pointer-events:all;border-radius:.5rem}.custom-control-label:before{position:absolute;top:.25rem;left:-1.5rem;display:block;width:1rem;height:18px;pointer-events:none;content:\"\";background-color:#fff;border:1px solid #adb5bd}.custom-control-input{position:absolute;z-index:-1;opacity:0}.custom-control-label{position:relative;margin-bottom:0;vertical-align:top}.custom-control input[type=checkbox]+label:before{content:\"\"}.custom-switch{padding-left:3.25rem}.toggleleft{font-size:var(--font-13);font-weight:600;display:block;margin-top:-12px;padding-bottom:13px}.report_button{margin-top:27px}.head-div .heading{font-weight:600}.right-icons .fa{margin-top:3px;display:inline-block;z-index:9}.right-icons .fa-trash{font-size:18px}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link{background:var(--bg-light);color:var(--text-dark);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{background:var(--primary);color:var(--hover-text);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-content{background:var(--bg-light);color:var(--text-dark);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{background:var(--primary);color:var(--hover-text);border-color:var(--table-border)}.adjusttop{margin-top:60px;margin-bottom:-24px}\n"], components: [{ type: AlertComponent, selector: "app-alert" }, { type: i7__namespace.Card, selector: "p-card", inputs: ["header", "subheader", "style", "styleClass"] }, { type: i8__namespace.MultiSelect, selector: "p-multiSelect", inputs: ["style", "styleClass", "panelStyle", "panelStyleClass", "inputId", "disabled", "readonly", "group", "filter", "filterPlaceHolder", "filterLocale", "overlayVisible", "tabindex", "appendTo", "dataKey", "name", "label", "ariaLabelledBy", "displaySelectedLabel", "maxSelectedLabels", "selectionLimit", "selectedItemsLabel", "showToggleAll", "emptyFilterMessage", "emptyMessage", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "showHeader", "autoZIndex", "baseZIndex", "filterBy", "virtualScroll", "itemSize", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "filterMatchMode", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "display", "autocomplete", "showClear", "scrollHeight", "defaultLabel", "placeholder", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onClear", "onPanelShow", "onPanelHide"] }, { type: i9__namespace.Dropdown, selector: "p-dropdown", inputs: ["scrollHeight", "filter", "name", "style", "panelStyle", "styleClass", "panelStyleClass", "readonly", "required", "editable", "appendTo", "tabindex", "placeholder", "filterPlaceholder", "filterLocale", "inputId", "selectId", "dataKey", "filterBy", "autofocus", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "autoDisplayFirst", "group", "showClear", "emptyFilterMessage", "emptyMessage", "virtualScroll", "itemSize", "autoZIndex", "baseZIndex", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "ariaLabel", "ariaLabelledBy", "filterMatchMode", "maxlength", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "disabled", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onShow", "onHide", "onClear"] }, { type: i10__namespace.TabMenu, selector: "p-tabMenu", inputs: ["model", "activeItem", "scrollable", "popup", "style", "styleClass"] }, { type: i11__namespace.Accordion, selector: "p-accordion", inputs: ["multiple", "style", "styleClass", "expandIcon", "collapseIcon", "activeIndex"], outputs: ["onClose", "onOpen", "activeIndexChange"] }, { type: i11__namespace.AccordionTab, selector: "p-accordionTab", inputs: ["header", "disabled", "cache", "transitionOptions", "selected"], outputs: ["selectedChange"] }, { type: i12__namespace.Tree, selector: "p-tree", inputs: ["value", "selectionMode", "selection", "style", "styleClass", "contextMenu", "layout", "draggableScope", "droppableScope", "draggableNodes", "droppableNodes", "metaKeySelection", "propagateSelectionUp", "propagateSelectionDown", "loading", "loadingIcon", "emptyMessage", "ariaLabel", "togglerAriaLabel", "ariaLabelledBy", "validateDrop", "filter", "filterBy", "filterMode", "filterPlaceholder", "filteredNodes", "filterLocale", "scrollHeight", "virtualScroll", "virtualNodeHeight", "minBufferPx", "maxBufferPx", "indentation", "trackBy"], outputs: ["selectionChange", "onNodeSelect", "onNodeUnselect", "onNodeExpand", "onNodeCollapse", "onNodeContextMenuSelect", "onNodeDrop", "onFilter"] }], directives: [{ type: i1__namespace$2.NgControlStatusGroup, selector: "[formGroupName],[formArrayName],[ngModelGroup],[formGroup],form:not([ngNoForm]),[ngForm]" }, { type: i1__namespace$2.FormGroupDirective, selector: "[formGroup]", inputs: ["formGroup"], outputs: ["ngSubmit"], exportAs: ["ngForm"] }, { type: PermissionDirective, selector: "[fieldKey]", inputs: ["fieldKey"] }, { type: i14__namespace.NgIf, selector: "[ngIf]", inputs: ["ngIf", "ngIfThen", "ngIfElse"] }, { type: i14__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }, { type: i14__namespace.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }, { type: ShowFieldDirective, selector: "[showField]", inputs: ["showField"] }, { type: i1__namespace$2.DefaultValueAccessor, selector: "input:not([type=checkbox])[formControlName],textarea[formControlName],input:not([type=checkbox])[formControl],textarea[formControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]" }, { type: i1__namespace$2.NgControlStatus, selector: "[formControlName],[ngModel],[formControl]" }, { type: i1__namespace$2.FormControlName, selector: "[formControlName]", inputs: ["disabled", "formControlName", "ngModel"], outputs: ["ngModelChange"] }, { type: i16__namespace.InputText, selector: "[pInputText]" }, { type: i17__namespace.PrimeTemplate, selector: "[pTemplate]", inputs: ["type", "pTemplate"] }] });
+    RolesComponent.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RolesComponent, deps: [{ token: i0__namespace.Injector }, { token: i1__namespace$1.FormBuilder }, { token: AlertService }, { token: MicrostrategyService }, { token: RbacService }, { token: DataStoreService }, { token: RbacService }], target: i0__namespace.ɵɵFactoryTarget.Component });
+    RolesComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: RolesComponent, selector: "roles", ngImport: i0__namespace, template: "<app-alert></app-alert>\r\n<div class=\"permission\">\r\n  <div class=\"row\" [formGroup]=\"roleForm\">\r\n    <div class=\"col-lg-4 col-md-6 col-12\">\r\n      <div class=\"clearfix\"></div>\r\n      <div class=\"tab-content py-2 px-2 px-sm-0\">\r\n        <div class=\"tab-pane fade show active\">\r\n          <div class=\"form-group bgiconsearch d-flex align-items-center\"> <!-- Modified line -->\r\n            <span class=\"p-input-icon-right w-100\">\r\n              <i class=\"pi pi-times-circle\" (click)=\"clearSearch($event)\"></i>\r\n              <input class=\"form-control\" fieldKey=\"SETTINGS_ROL_SEARCH_BY_NAME\" placeholder=\"Search by Role name\"\r\n                type=\"text\" (keyup)=\"searchRole($event)\" />\r\n            </span>\r\n            <button type=\"button\" class=\"btn btn-primary btncommon ml-2\" (click)=\"onClickAddRole()\">Add</button>\r\n          </div>\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"useracess\">\r\n            <div class=\"d-flex align-items-center justify-content-center h-100 w-100 ng-star-inserted\"\r\n              *ngIf=\"!filteredRoleList.length\">\r\n              <p>No Record Found</p>\r\n            </div>\r\n            <ng-container *ngFor=\"let item of filteredRoleList\">\r\n              <div class=\"row userdata align-items-center\" (click)=\"getRoleInfo(item.id)\"\r\n                [ngClass]=\"{ active: +item.id === roleId }\">\r\n                <div class=\"col-md-10 col-sm-10 col-10 overflow_txt\">\r\n                  <span class=\"nameuser\">{{ item.name }}</span> <br />\r\n                </div>\r\n                <div class=\"col-md-2 text-right\">\r\n                  <span class=\"right-icons\">\r\n                    <em class=\"fa fa-trash text-primary\" *showField=\"'SETTINGS_ROL_DELETE'\"\r\n                      (click)=\"delete($event, item.id, item)\" aria-hidden=\"true\"></em>\r\n                  </span>\r\n                </div>\r\n              </div>\r\n            </ng-container>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-8 col-md-6 col-12 roles-right group-role mt-2\">\r\n      <p-card class=\"rbac-card\" [style]=\"{ width: '100%', 'margin-bottom': '2em' }\">\r\n        <div class=\"strip_head toggleleft\">\r\n          <span class=\"report_head font-weight-bold\">Role Details</span>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid p-grid\">\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label for=\"rolesName\" class=\"referral-form-labels\">Role Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"rolesName\" type=\"text\" fieldKey=\"SETTINGS_ROL_ROLE_NAME\" formControlName=\"name\"\r\n              placeholder=\"Enter Role Name\" aria-describedby=\"rolesName\" [(ngModel)]=\"modelRoleName\"\r\n              (ngModelChange)=\"onModelRole($event)\"\r\n              (input)=\"onInput($event, 'name', 'Role Name', true)\"  pInputText />\r\n              <div *ngIf=\"validationErrors['Role Name']\" class=\"p-error block mt-1\">{{validationErrors['Role Name']}}</div>\r\n            <!-- <div *ngIf=\"formValidate['name'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['name'].invalid\" class=\"p-error block\">Role Name is required </small>\r\n            </div> -->\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"policyGroupList\" for=\"policyGroupList\" class=\"referral-form-labels\">Policy Groups\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-multiSelect name=\"policyGroupList\" [options]=\"policyGroupList\" formControlName=\"policyGroupId\"\r\n              defaultLabel=\"Select Policy Groups\" optionLabel=\"policygroupname\" optionValue=\"id\" (onHide)=\"resetReportDashboardList()\"\r\n              [resetFilterOnHide]=\"true\" inputId=\"policyGroupList\" ariaFilterLabel=\"null\"\r\n              fieldKey=\"SETTINGS_ROL_POLICY_GROUP\" display=\"chip\">\r\n            </p-multiSelect>\r\n            <div *ngIf=\"formValidate['policyGroupId'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['policyGroupId'].invalid\" class=\"p-error block\">Policy Group is required\r\n              </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"landingPage\" for=\"landingPage\" class=\"referral-form-labels\">Landing Page\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-dropdown name=\"landingPage\" [options]=\"dublicateLandingPage\" placeholder=\"Select Landing Page\"\r\n              formControlName=\"defaultpageid\" defaultLabel=\"Select Landing Page\" (onHide)=\"resetLandingPageList()\" [resetFilterOnHide]=\"true\" [filter]=\"true\" filterBy=\"name\"\r\n              (keyup)=\"searchLandingPageList($event)\" [showClear]=\"true\" fieldKey=\"SETTINGS_ROL_LANDING_PAGE\"\r\n              optionLabel=\"name\" optionValue=\"id\" inputId=\"landingPage\">\r\n              <ng-template let-item pTemplate=\"selectedItem\">\r\n                <div pTooltip=\"{{item?.name}}\" tooltipPosition=\"top\" class=\"text-truncate\"> {{ item?.name }}</div>\r\n              </ng-template>\r\n              <ng-template let-object pTemplate=\"item\">\r\n                {{ object.name }}\r\n              </ng-template>\r\n            </p-dropdown>\r\n            <div *ngIf=\"formValidate['defaultpageid'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['defaultpageid'].invalid\" class=\"p-error block\">Landing Page is required\r\n              </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"dossierId\" for=\"dossierId\" class=\"referral-form-labels\">Report Dashboard</label>\r\n            <p-dropdown [options]=\"reportDashboardList\" optionLabel=\"name\" id=\"dossierid\" [resetFilterOnHide]=\"true\" [filter]=\"true\"\r\n              [showClear]=\"true\" optionValue=\"id\" placeholder=\"Select ID\" formControlName=\"dossierid\">\r\n              <ng-template let-item pTemplate=\"selectedItem\">\r\n                <div pTooltip=\"{{item?.name}}\" tooltipPosition=\"top\" class=\"text-truncate\"> {{ item?.name }}</div>\r\n              </ng-template>\r\n              <ng-template let-object pTemplate=\"item\">\r\n                {{ object.name }}\r\n              </ng-template>\r\n            </p-dropdown>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-md-12 col-12\">\r\n            <!-- <button\r\n              class=\"pull-right mb-2 btn btn-primary btncommon report_button\"\r\n              fieldKey=\"SETTINGS_ROL_CONFIGURE_PERMISSION\"\r\n              (click)=\"addNewRole('1')\">\r\n              Configure Permission\r\n            </button> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"mt-2\" *ngIf=\"permissionAllow\">\r\n          <button fieldKey=\"SETTINGS_ROL_RESET\" class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\"\r\n            (click)=\"selectAllAccess(false)\">\r\n            Reset\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_SELECT_ALL\"\r\n            (click)=\"selectAllAccess(true)\">\r\n            Select All\r\n          </button>\r\n          <!-- <br /> -->\r\n        </div>\r\n        <div class=\"strip_head toggleleft adjusttop\" *ngIf=\"permissionAllow\">\r\n          <!-- <span class=\"report_head font-weight-bold\">Permissions</span> -->\r\n          <p-tabMenu [model]=\"items\" [activeItem]=\"activeItem\"></p-tabMenu>\r\n        </div>\r\n\r\n        <div *ngIf=\"firstTab\">\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"mt-4 mb-4\">\r\n            <div *ngIf=\"permissionAllow\">\r\n              <div class=\"permission-filter\">\r\n                <input class=\"form-control clearbox\" placeholder=\"Search by Permissions name\" type=\"text\"\r\n                  (keyup)=\"searchRolePermission($event)\" />\r\n                <i class=\"pi pi-times-circle\" (click)=\"clearPermission($event)\"></i>\r\n              </div>\r\n              <div class=\"d-flex align-items-center justify-content-center h-100 w-100 ng-star-inserted\"\r\n                *ngIf=\"!filterPermissions.length\">\r\n                <p>No Record Found</p>\r\n              </div>\r\n            </div>\r\n            <p-accordion class=\"w-100\">\r\n              <p-accordionTab class=\"w-100\" *ngFor=\"let page of permissions; let i = index\">\r\n                <ng-template pTemplate=\"header\">\r\n                  {{ page.description }}\r\n                </ng-template>\r\n                <ng-template pTemplate=\"content\">\r\n                  <div class=\"heading_analysis datamargin\">\r\n                    <div class=\"Customcheckbox pl-1\">\r\n                      <input type=\"checkbox\" class=\"styled-checkbox\" id=\"custom{{ i }}\"\r\n                        (change)=\"selectAllPage(i, $event)\" [checked]=\"page?.checked\" />\r\n                      <label for=\"custom{{ i }}\" class=\"heading_role\">{{ page.description }}</label>\r\n                    </div>\r\n                  </div>\r\n\r\n                  <ul class=\"marginul_list ecms_rolescroll\">\r\n                    <ng-container *ngFor=\"let permission of page?.permissions; let j = index\">\r\n                      <ng-container *ngIf=\"isPrivilage(permission); else permissionOnly\">\r\n                        <li>\r\n                          <div class=\"inner_childaccess d-flex mt-0 py-1\">\r\n                            <div class=\"d-inline-flex align-items-center\">\r\n                              <label class=\"Customcheckbox pl-1 mb-0\">\r\n                                <input type=\"checkbox\" [checked]=\"permission?.checked\"\r\n                                  (change)=\"selectAllPrivilage(i, j, $event)\" id=\"description{{ j }}\" />\r\n                                <span class=\"checkmark\"></span>\r\n                              </label>\r\n                              <label for=\"description{{ j }}\" class=\"heading_role mb-0\">{{\r\n                                permission.description\r\n                                }}</label>\r\n                            </div>\r\n                          </div>\r\n                        </li>\r\n                        <li class=\"ml-1\" *ngFor=\"let privilege of permission?.permissions; let k = index\">\r\n                          <div class=\"d-flex\">\r\n                            <div class=\"custom-control custom-switch\">\r\n                              <input type=\"checkbox\" [checked]=\"privilege?.checked\" class=\"custom-control-input\"\r\n                                id=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\"\r\n                                (click)=\"selectPrivilege(i, j, k, $event)\" />\r\n                              <label class=\"custom-control-label\" for=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\">{{\r\n                                privilege.description\r\n                                }}</label>\r\n                            </div>\r\n                          </div>\r\n                        </li>\r\n                      </ng-container>\r\n                      <ng-template #permissionOnly>\r\n                        <li>\r\n                          <div class=\"custom-control custom-switch\">\r\n                            <input type=\"checkbox\" [checked]=\"permission?.checked\" class=\"custom-control-input\"\r\n                              (click)=\"selectPage(i, j, $event)\" id=\"customSwitchesroles{{ i }}{{ j }}\" />\r\n                            <label class=\"custom-control-label\" for=\"customSwitchesroles{{ i }}{{ j }}\">{{\r\n                              permission.description }}\r\n                            </label>\r\n                          </div>\r\n                        </li>\r\n                      </ng-template>\r\n                    </ng-container>\r\n                  </ul>\r\n                </ng-template>\r\n              </p-accordionTab>\r\n            </p-accordion>\r\n            <div class=\"col-md-12 box d-none\" *ngFor=\"let page of permissions; let i = index\">\r\n              <div class=\"heading_analysis datamargin\">\r\n                <div class=\"Customcheckbox\">\r\n                  <input type=\"checkbox\" class=\"styled-checkbox\" id=\"custom{{ i }}\" (change)=\"selectAllPage(i, $event)\"\r\n                    [checked]=\"page?.checked\" />\r\n                  <label for=\"custom{{ i }}\" class=\"heading_role\">{{ page.description }}</label>\r\n                </div>\r\n              </div>\r\n\r\n              <ul class=\"marginul_list ecms_rolescroll\">\r\n                <ng-container *ngFor=\"let permission of page?.permissions; let j = index\">\r\n                  <ng-container *ngIf=\"isPrivilage(permission); else permissionOnly\">\r\n                    <li>\r\n                      <div class=\"inner_childaccess\">\r\n                        <label class=\"Customcheckbox\">\r\n                          <input type=\"checkbox\" [checked]=\"permission?.checked\"\r\n                            (change)=\"selectAllPrivilage(i, j, $event)\" />\r\n                          <span class=\"checkmark\"></span>\r\n                        </label>\r\n                        <span class=\"heading_role\">{{ permission.description }}</span>\r\n                      </div>\r\n                    </li>\r\n                    <li *ngFor=\"let privilege of permission?.permissions; let k = index\">\r\n                      <div class=\"custom-control custom-switch\">\r\n                        <input type=\"checkbox\" [checked]=\"privilege?.checked\" class=\"custom-control-input\"\r\n                          id=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\" (click)=\"selectPrivilege(i, j, k, $event)\" />\r\n                        <label class=\"custom-control-label\" for=\"customSwitchesroless{{ i }}{{ j }}{{ k }}\">{{\r\n                          privilege.description\r\n                          }}</label>\r\n                      </div>\r\n                    </li>\r\n                  </ng-container>\r\n                  <ng-template #permissionOnly>\r\n                    <li>\r\n                      <div class=\"custom-control custom-switch\">\r\n                        <input type=\"checkbox\" [checked]=\"permission?.checked\" class=\"custom-control-input\"\r\n                          (click)=\"selectPage(i, j, $event)\" id=\"customSwitchesroles{{ i }}{{ j }}\" />\r\n                        <label class=\"custom-control-label\" for=\"customSwitchesroles{{ i }}{{ j }}\">{{\r\n                          permission.description }}\r\n                        </label>\r\n                      </div>\r\n                    </li>\r\n                  </ng-template>\r\n                </ng-container>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-2\">\r\n            <button class=\"pull-right mb-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_ADD_ROLE\"\r\n              (click)=\"addRole()\">\r\n              {{ roleId ? 'Update' : 'Add' }} Role\r\n            </button>\r\n            <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" fieldKey=\"SETTINGS_ROL_CANCEL\"\r\n              (click)=\"cancel()\">\r\n              Clear\r\n            </button>\r\n          </div>\r\n        </div>\r\n\r\n        <div *ngIf=\"!firstTab\">\r\n\r\n          <div class=\"card flex justify-content-center mt-4\">\r\n            <p-tree [value]=\"mainMenuList\" [draggableNodes]=\"true\" [droppableNodes]=\"true\" draggableScope=\"self\"\r\n              droppableScope=\"self\" class=\"w-full md:w-30rem\" selectionMode=\"single\" [(selection)]=\"selectedFile\"\r\n              [validateDrop]=\"true\" (onNodeDrop)=\"nodeDrop($event)\"></p-tree>\r\n          </div>\r\n\r\n          <div class=\"mt-2\">\r\n            <button class=\"pull-right mb-2 btn btn-primary btncommon\" fieldKey=\"SETTINGS_ROL_ADD_ROLE\"\r\n              (click)=\"updateMenuOrder()\">\r\n              Submit\r\n            </button>\r\n          </div>\r\n        </div>\r\n\r\n        <br />\r\n      </p-card>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"modal\" id=\"Deleteuser\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\" *ngIf=\"deleteactive_user\">Delete Role</h5>\r\n        <h5 class=\"modal-title\" *ngIf=\"!deleteactive_user\">Warning - Role</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        {{ modalContent }}\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\" (click)=\"deleteRole()\"\r\n            *ngIf=\"deleteactive_user\">\r\n            Delete\r\n          </button>\r\n\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\"\r\n            *ngIf=\"deleteactive_buttonok\">\r\n            Cancel\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\"\r\n            *ngIf=\"!deleteactive_buttonok\">\r\n            OK\r\n          </button>\r\n        </div>\r\n\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n", styles: [".head-div{padding-top:9px;padding-left:7px}.bgiconsearch{margin-bottom:5px;padding-bottom:0;font-size:var(--font-13)}.useracess{border-radius:2px;padding:5px 0;max-height:calc(100vh - 227px);overflow-y:auto}.userempty{max-width:none;border-radius:50%;height:35px;width:35px}.row.userdata{margin:0;border-bottom:solid 1px var(--table-border);padding:5px 0;cursor:pointer}.overflow_txt{overflow:hidden;text-overflow:ellipsis}span.nameuser{font-size:var(--font-13);color:var(--label-text);font-weight:600}.userid,span.emailuser{font-size:var(--font-13);color:#838383}.heading_analysis{padding-bottom:0;border-bottom:1px solid var(--table-border)}.Customcheckbox{position:relative;padding-top:0;padding-left:10px}.heading_role{padding-left:10px;font-size:var(--font-13);top:-2px;position:relative;font-weight:700}.marginul_list{padding:0;margin:0}.marginul_list li{list-style:none;padding-top:5px}.marginul_list li label{color:var(--text-dark);text-transform:capitalize;font-size:var(--font-13)}.marginul_list.ecms_rolescroll{max-height:250px;overflow:auto;margin-bottom:20px}.ecms_rolescroll::-webkit-scrollbar{width:.5em;height:.5em}.ecms_rolescroll::-webkit-scrollbar-track{box-shadow:inset 0 0 6px #0000004d;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)}.ecms_rolescroll::-webkit-scrollbar-thumb{background-color:#a9a9a9;outline:1px solid slategrey}.inner_childaccess{margin-top:9px;margin-left:3px;border-bottom:1px solid var(--table-border)}.inner_childaccess .heading_role{font-size:var(--font-13);font-weight:700}.Customcheckbox input{display:inline-block}.Customcheckbox:hover input~.checkmark{border:solid 2px #2196f3}.Customcheckbox input~.checkmark{display:none}.Customcheckbox input:checked~.checkmark{display:none;border:solid 2px #1db766;background-color:#1db766}.Customcheckbox input:checked~.checkmark:after{display:block}.Customcheckbox .checkmark:after{left:6px;top:2px;width:5px;height:10px;border:solid #ffffff;border-width:0 2px 2px 0;transform:rotate(45deg)}.custom-control-input:checked~.custom-control-label:before{color:#fff;border:#1db766!important;background:#1db766!important}.custom-control.custom-switch.toggleleft .custom-control-label{padding-top:3px;font-size:var(--font-13)}.custom-switch .custom-control-label:after{top:calc(.25rem + 3px)}.toggle .custom-control-input:checked~.custom-control-label:before{color:#fff;border:#1db766!important;background:#1db766!important}.toggle .custom-control-input~.custom-control-label:before{color:#fff;border:#8c8c8c;background:#8c8c8c}.toggle .custom-control-label:after{background-color:#fff}.custom-switch .custom-control-label:before{left:-2.25rem;width:1.75rem;pointer-events:all;border-radius:.5rem}.custom-control-label:before{position:absolute;top:.25rem;left:-1.5rem;display:block;width:1rem;height:18px;pointer-events:none;content:\"\";background-color:#fff;border:1px solid #adb5bd}.custom-control-input{position:absolute;z-index:-1;opacity:0}.custom-control-label{position:relative;margin-bottom:0;vertical-align:top}.custom-control input[type=checkbox]+label:before{content:\"\"}.custom-switch{padding-left:3.25rem}.toggleleft{font-size:var(--font-13);font-weight:600;display:block;margin-top:-12px;padding-bottom:13px}.report_button{margin-top:27px}.head-div .heading{font-weight:600}.right-icons .fa{margin-top:3px;display:inline-block;z-index:9}.right-icons .fa-trash{font-size:18px}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link{background:var(--bg-light);color:var(--text-dark);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{background:var(--primary);color:var(--hover-text);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-tab .p-accordion-content{background:var(--bg-light);color:var(--text-dark);border-color:var(--table-border)}:host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{background:var(--primary);color:var(--hover-text);border-color:var(--table-border)}.adjusttop{margin-top:60px;margin-bottom:-24px}:host ::ng-deep .p-tree .p-treenode-droppoint.p-treenode-droppoint-active{border:1px solid #89c8f7;height:30px;background:none!important}.permission-filter{margin:20px 0 10px;position:relative}.permission-filter i{position:absolute;right:8px;top:50%;cursor:pointer;margin-top:-.5rem;color:#6c757d}\n"], components: [{ type: AlertComponent, selector: "app-alert" }, { type: i7__namespace.Card, selector: "p-card", inputs: ["header", "subheader", "style", "styleClass"] }, { type: i8__namespace.MultiSelect, selector: "p-multiSelect", inputs: ["style", "styleClass", "panelStyle", "panelStyleClass", "inputId", "disabled", "readonly", "group", "filter", "filterPlaceHolder", "filterLocale", "overlayVisible", "tabindex", "appendTo", "dataKey", "name", "label", "ariaLabelledBy", "displaySelectedLabel", "maxSelectedLabels", "selectionLimit", "selectedItemsLabel", "showToggleAll", "emptyFilterMessage", "emptyMessage", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "showHeader", "autoZIndex", "baseZIndex", "filterBy", "virtualScroll", "itemSize", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "filterMatchMode", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "display", "autocomplete", "showClear", "scrollHeight", "defaultLabel", "placeholder", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onClear", "onPanelShow", "onPanelHide"] }, { type: i9__namespace.Dropdown, selector: "p-dropdown", inputs: ["scrollHeight", "filter", "name", "style", "panelStyle", "styleClass", "panelStyleClass", "readonly", "required", "editable", "appendTo", "tabindex", "placeholder", "filterPlaceholder", "filterLocale", "inputId", "selectId", "dataKey", "filterBy", "autofocus", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "autoDisplayFirst", "group", "showClear", "emptyFilterMessage", "emptyMessage", "virtualScroll", "itemSize", "autoZIndex", "baseZIndex", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "ariaLabel", "ariaLabelledBy", "filterMatchMode", "maxlength", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "disabled", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onShow", "onHide", "onClear"] }, { type: i10__namespace.TabMenu, selector: "p-tabMenu", inputs: ["model", "activeItem", "scrollable", "popup", "style", "styleClass"] }, { type: i11__namespace.Accordion, selector: "p-accordion", inputs: ["multiple", "style", "styleClass", "expandIcon", "collapseIcon", "activeIndex"], outputs: ["onClose", "onOpen", "activeIndexChange"] }, { type: i11__namespace.AccordionTab, selector: "p-accordionTab", inputs: ["header", "disabled", "cache", "transitionOptions", "selected"], outputs: ["selectedChange"] }, { type: i12__namespace.Tree, selector: "p-tree", inputs: ["value", "selectionMode", "selection", "style", "styleClass", "contextMenu", "layout", "draggableScope", "droppableScope", "draggableNodes", "droppableNodes", "metaKeySelection", "propagateSelectionUp", "propagateSelectionDown", "loading", "loadingIcon", "emptyMessage", "ariaLabel", "togglerAriaLabel", "ariaLabelledBy", "validateDrop", "filter", "filterBy", "filterMode", "filterPlaceholder", "filteredNodes", "filterLocale", "scrollHeight", "virtualScroll", "virtualNodeHeight", "minBufferPx", "maxBufferPx", "indentation", "trackBy"], outputs: ["selectionChange", "onNodeSelect", "onNodeUnselect", "onNodeExpand", "onNodeCollapse", "onNodeContextMenuSelect", "onNodeDrop", "onFilter"] }], directives: [{ type: i1__namespace$1.NgControlStatusGroup, selector: "[formGroupName],[formArrayName],[ngModelGroup],[formGroup],form:not([ngNoForm]),[ngForm]" }, { type: i1__namespace$1.FormGroupDirective, selector: "[formGroup]", inputs: ["formGroup"], outputs: ["ngSubmit"], exportAs: ["ngForm"] }, { type: PermissionDirective, selector: "[fieldKey]", inputs: ["fieldKey"] }, { type: i14__namespace.NgIf, selector: "[ngIf]", inputs: ["ngIf", "ngIfThen", "ngIfElse"] }, { type: i14__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }, { type: i14__namespace.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }, { type: ShowFieldDirective, selector: "[showField]", inputs: ["showField"] }, { type: i1__namespace$1.DefaultValueAccessor, selector: "input:not([type=checkbox])[formControlName],textarea[formControlName],input:not([type=checkbox])[formControl],textarea[formControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]" }, { type: i1__namespace$1.NgControlStatus, selector: "[formControlName],[ngModel],[formControl]" }, { type: i1__namespace$1.FormControlName, selector: "[formControlName]", inputs: ["disabled", "formControlName", "ngModel"], outputs: ["ngModelChange"] }, { type: i16__namespace.InputText, selector: "[pInputText]" }, { type: i17__namespace.PrimeTemplate, selector: "[pTemplate]", inputs: ["type", "pTemplate"] }, { type: i18__namespace.Tooltip, selector: "[pTooltip]", inputs: ["tooltipPosition", "tooltipEvent", "appendTo", "positionStyle", "tooltipStyleClass", "tooltipZIndex", "escape", "showDelay", "hideDelay", "life", "positionTop", "positionLeft", "pTooltip", "tooltipDisabled", "tooltipOptions"] }] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RolesComponent, decorators: [{
                 type: i0.Component,
                 args: [{
@@ -1811,7 +1820,7 @@
                         templateUrl: './roles.component.html',
                         styleUrls: ['./roles.component.scss']
                     }]
-            }], ctorParameters: function () { return [{ type: i0__namespace.Injector }, { type: i1__namespace$2.FormBuilder }, { type: AlertService }, { type: MicrostrategyService }, { type: RbacService }, { type: DataStoreService }, { type: RbacService }]; } });
+            }], ctorParameters: function () { return [{ type: i0__namespace.Injector }, { type: i1__namespace$1.FormBuilder }, { type: AlertService }, { type: MicrostrategyService }, { type: RbacService }, { type: DataStoreService }, { type: RbacService }]; } });
 
     var RbacRolesComponent = /** @class */ (function () {
         function RbacRolesComponent(permissionStore, _storeservice) {
@@ -1827,12 +1836,13 @@
                 _this._storeservice.setData('RBACORG', _this.RBACORG);
                 _this.permissionStore.setStore(_this.PERMISSION);
                 _this._storeservice.setData('HTTPSERVICE', val.httpService);
+                _this._storeservice.setData('INPUTVALIDATIONMETHOD', _this.INPUTVALIDATIONMETHOD);
             });
         };
         return RbacRolesComponent;
     }());
     RbacRolesComponent.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesComponent, deps: [{ token: PermissionStore }, { token: DataStoreService }], target: i0__namespace.ɵɵFactoryTarget.Component });
-    RbacRolesComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: RbacRolesComponent, selector: "rbac-roles", inputs: { RBACORG: "RBACORG", PERMISSION: "PERMISSION", roleEvent: "roleEvent" }, ngImport: i0__namespace, template: "\n      <roles></roles>\n  ", isInline: true, components: [{ type: RolesComponent, selector: "roles" }] });
+    RbacRolesComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: RbacRolesComponent, selector: "rbac-roles", inputs: { RBACORG: "RBACORG", PERMISSION: "PERMISSION", roleEvent: "roleEvent", INPUTVALIDATIONMETHOD: "INPUTVALIDATIONMETHOD" }, ngImport: i0__namespace, template: "\n      <roles></roles>\n  ", isInline: true, components: [{ type: RolesComponent, selector: "roles" }] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesComponent, decorators: [{
                 type: i0.Component,
                 args: [{
@@ -1845,6 +1855,8 @@
                 }], PERMISSION: [{
                     type: i0.Input
                 }], roleEvent: [{
+                    type: i0.Input
+                }], INPUTVALIDATIONMETHOD: [{
                     type: i0.Input
                 }] } });
 
@@ -1889,7 +1901,7 @@
     }());
     PicsRbacRolesModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacRolesModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
     PicsRbacRolesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacRolesModule, declarations: [RolesComponent], imports: [i14.CommonModule,
-            i1$2.ReactiveFormsModule,
+            i1$1.ReactiveFormsModule,
             ngBootstrap.NgbModule,
             i10.TabMenuModule,
             tabview.TabViewModule,
@@ -1931,10 +1943,10 @@
             AlertModule,
             i12.TreeModule,
             dragDrop.DragDropModule], exports: [RolesComponent] });
-    PicsRbacRolesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacRolesModule, providers: [RbacService, MicrostrategyService, i1$1.HttpClient, AlertService, i17.ConfirmationService, PermissionStore,
+    PicsRbacRolesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacRolesModule, providers: [RbacService, MicrostrategyService, http.HttpClient, AlertService, i17.ConfirmationService, PermissionStore,
             DataStoreService, i17.TreeDragDropService], imports: [[
                 i14.CommonModule,
-                i1$2.ReactiveFormsModule,
+                i1$1.ReactiveFormsModule,
                 ngBootstrap.NgbModule,
                 i10.TabMenuModule,
                 tabview.TabViewModule,
@@ -1985,7 +1997,7 @@
                         ],
                         imports: [
                             i14.CommonModule,
-                            i1$2.ReactiveFormsModule,
+                            i1$1.ReactiveFormsModule,
                             ngBootstrap.NgbModule,
                             i10.TabMenuModule,
                             tabview.TabViewModule,
@@ -2030,7 +2042,7 @@
                         ],
                         exports: [RolesComponent],
                         schemas: [i0.NO_ERRORS_SCHEMA, i0.CUSTOM_ELEMENTS_SCHEMA],
-                        providers: [RbacService, MicrostrategyService, i1$1.HttpClient, AlertService, i17.ConfirmationService, PermissionStore,
+                        providers: [RbacService, MicrostrategyService, http.HttpClient, AlertService, i17.ConfirmationService, PermissionStore,
                             DataStoreService, i17.TreeDragDropService]
                     }]
             }] });
@@ -2041,9 +2053,11 @@
         return RbacRolesModule;
     }());
     RbacRolesModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
-    RbacRolesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesModule, declarations: [RbacRolesComponent], imports: [PicsRbacRolesModule], exports: [RbacRolesComponent] });
+    RbacRolesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesModule, declarations: [RbacRolesComponent], imports: [PicsRbacRolesModule,
+            i9.DropdownModule], exports: [RbacRolesComponent] });
     RbacRolesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesModule, imports: [[
-                PicsRbacRolesModule
+                PicsRbacRolesModule,
+                i9.DropdownModule
             ]] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacRolesModule, decorators: [{
                 type: i0.NgModule,
@@ -2052,7 +2066,8 @@
                             RbacRolesComponent
                         ],
                         imports: [
-                            PicsRbacRolesModule
+                            PicsRbacRolesModule,
+                            i9.DropdownModule
                         ],
                         exports: [
                             RbacRolesComponent

@@ -8,6 +8,10 @@ export declare class RoleConfig {
             getAllOrgRole: string;
             dossier: string;
         };
+        microstrategy: {
+            login: string;
+            getLibrary: string;
+        };
     };
 }
 export declare class UserConfig {

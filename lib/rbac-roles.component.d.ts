@@ -10,8 +10,9 @@ export declare class RbacRolesComponent implements OnInit {
     RBACORG?: RBACINFO;
     PERMISSION?: any;
     roleEvent: Observable<any>;
+    INPUTVALIDATIONMETHOD?: any;
     constructor(permissionStore: PermissionStore, _storeservice: DataStoreService);
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<RbacRolesComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<RbacRolesComponent, "rbac-roles", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; "roleEvent": "roleEvent"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<RbacRolesComponent, "rbac-roles", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; "roleEvent": "roleEvent"; "INPUTVALIDATIONMETHOD": "INPUTVALIDATIONMETHOD"; }, {}, never, never>;
 }
