@@ -64,11 +64,15 @@ export declare class RolesComponent implements OnInit {
         [key: string]: string;
     };
     inputValidationMethod: any;
+    policyGroupsLength: any;
+    enableButton: boolean;
+    checkedRolesArr: any;
     buildTree: (parentId: any) => (item: any) => any;
     originalPermissions: Array<any>;
     nestedData(): void;
     constructor(injector: Injector, formBuilder: FormBuilder, alertService: AlertService, mstrService: MicrostrategyService, rolesService: RbacService, _storeservice: DataStoreService, permissionService: RbacService);
     ngOnInit(): void;
+    isAnyFormControlWithValue(): boolean;
     ngOnDestroy(): void;
     initializeform(): void;
     get formValidate(): {
@@ -115,6 +119,7 @@ export declare class RolesComponent implements OnInit {
     getPageInformation(): void;
     updateMenuOrder(): void;
     nodeDrop(event: any): void;
+    selectPolicyGroup(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<RolesComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<RolesComponent, "roles", never, {}, {}, never, never>;
 }
